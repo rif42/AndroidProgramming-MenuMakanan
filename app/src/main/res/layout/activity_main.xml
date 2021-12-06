@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="#CACACA"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/headertext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oleo_script_swash_caps"
+            android:text="@string/headertext"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <!--        hidden code goes here-->
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:orientation="vertical">-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="24dp"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/menu1"-->
+        <!--                    android:layout_width="48dp"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:inputType="number"-->
+        <!--                    android:minHeight="48dp"-->
+        <!--                    tools:ignore="SpeakableTextPresentCheck, labelFor,autofill" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_cordonbleu"-->
+        <!--                    android:layout_width="160dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/cordonbleu"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_cordonbleuprice"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/cordonbleuprice"-->
+        <!--                    android:textAlignment="textEnd"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/menu2"-->
+        <!--                    android:layout_width="48dp"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:inputType="number"-->
+        <!--                    android:minHeight="48dp"-->
+        <!--                    tools:ignore="SpeakableTextPresentCheck, labelFor"-->
+        <!--                    android:importantForAutofill="no" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_steak"-->
+        <!--                    android:layout_width="160dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/steak"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_steakprice"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/steakprice"-->
+        <!--                    android:textAlignment="textEnd"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/menu3"-->
+        <!--                    android:layout_width="48dp"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:inputType="number"-->
+        <!--                    android:minHeight="48dp"-->
+        <!--                    tools:ignore="SpeakableTextPresentCheck, labelFor"-->
+        <!--                    android:importantForAutofill="no" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_fishchips"-->
+        <!--                    android:layout_width="160dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/fishchips"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_fishchipsprice"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/fishchipsprice"-->
+        <!--                    android:textAlignment="textEnd"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/menu4"-->
+        <!--                    android:layout_width="48dp"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:inputType="number"-->
+        <!--                    android:minHeight="48dp"-->
+        <!--                    tools:ignore="SpeakableTextPresentCheck, labelFor"-->
+        <!--                    android:importantForAutofill="no" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_zuppasoup"-->
+        <!--                    android:layout_width="160dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/zuppasoup"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_zuppasoupprice"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/zuppasoupprice"-->
+        <!--                    android:textAlignment="textEnd"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/menu5"-->
+        <!--                    android:layout_width="48dp"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:inputType="number"-->
+        <!--                    android:minHeight="48dp"-->
+        <!--                    tools:ignore="SpeakableTextPresentCheck, labelFor"-->
+        <!--                    android:importantForAutofill="no" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_chicken"-->
+        <!--                    android:layout_width="160dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/chicken"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_chickenprice"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/chickenprice"-->
+        <!--                    android:textAlignment="textEnd"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="horizontal">-->
+
+        <!--                <EditText-->
+        <!--                    android:id="@+id/menu6"-->
+        <!--                    android:layout_width="48dp"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:ems="10"-->
+        <!--                    android:inputType="number"-->
+        <!--                    android:minHeight="48dp"-->
+        <!--                    tools:ignore="SpeakableTextPresentCheck, labelFor"-->
+        <!--                    android:importantForAutofill="no" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_scallop"-->
+        <!--                    android:layout_width="160dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/scallop"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/menu_scallopprice"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="5dp"-->
+        <!--                    android:layout_weight="1"-->
+        <!--                    android:fontFamily="@font/alegreya_sc"-->
+        <!--                    android:text="@string/scallopprice"-->
+        <!--                    android:textAlignment="textEnd"-->
+        <!--                    android:textColor="#000000"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--            </LinearLayout>-->
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

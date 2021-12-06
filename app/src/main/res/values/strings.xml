@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MenuMakanan</string>
+    <string name="headertext">Menu List</string>
+    <string name="blank"> </string>
+    <string name="cordonbleu">Cordon Bleu</string>
+    <string name="cordonbleuprice">IDR 45 k</string>
+    <string name="steak">Wagyu Steak</string>
+    <string name="steakprice">IDR 70 k</string>
+    <string name="fishchips">Fish and Chips</string>
+    <string name="fishchipsprice">IDR 50 k</string>
+    <string name="zuppasoup">Zuppa Soup</string>
+    <string name="zuppasoupprice">IDR 35 k</string>
+    <string name="chicken">Chicken Yakiniku</string>
+    <string name="chickenprice">IDR 30 k</string>
+    <string name="scallop">Scallop with Oyster Sauce</string>
+    <string name="scallopprice">IDR 40 k</string>
+    <string name="placeholder">Placeholder</string>
+
+
+    <string-array name="Makanan">
+        <item>Cordon Bleu</item>
+        <item>Wagyu Steak</item>
+        <item>Fish and Chips</item>
+        <item>Zuppa Soup</item>
+        <item>Chicken Yakiniku</item>
+        <item>Scallop with Oyster Sauce</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>A delish of meat wrapped around cheese (or with cheese filling), then breaded and pan-fried or deep-fried.</item>
+        <item>Made from the famous japanese Wagyu beef, this steak produces a one of a kind umami flavor when cooked correctly.</item>
+        <item>The classic british dish involving fish deep fried in crispy batter, accompanied with fried wedge potatos.</item>
+        <item>A cute-looking soup made from various vegetables wrapped with thick and creamy soup, covered in baked puff pastry.</item>
+        <item>The best chicken dish originated in Japan, deep fried chicken covered with iconic soy sauce.</item>
+        <item>Scallop cooked in sweet and sour oyster sauce that will melt your mouth.</item>
+    </string-array>
+
+    <string-array name="Price">
+        <item>IDR 45k</item>
+        <item>IDR 70k</item>
+        <item>IDR 50k</item>
+        <item>IDR 35k</item>
+        <item>IDR 30k</item>
+        <item>IDR 40k</item>
+    </string-array>
+</resources>
